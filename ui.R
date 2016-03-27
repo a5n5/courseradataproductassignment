@@ -2,7 +2,7 @@
 # Place the ui.R and server.R codes in the same directory and run by using the command runApp()
 library(shiny)
 shinyUI(pageWithSidebar(
-  headerPanel("Coursera Assignment- BMI Calculator"),
+  headerPanel("Coursera Assignment- This is a BMI Calculator. Enter your Weight and Height to find your BMI"),
   sidebarPanel(
     numericInput('weight', 'Enter weight in lbs',150, min=90,max=500,step=1),
     numericInput('height', 'Enter height in inches',60, min=20,max=96,step=1),

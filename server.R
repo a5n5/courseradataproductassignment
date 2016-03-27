@@ -8,9 +8,6 @@ shinyServer(
   function(input,output){
     output$oweight<-renderPrint({input$weight})
     output$oheight<-renderPrint({input$height})
-    #bmi<-reactive({
-    #  bmi<-(input$weight*703)/(input$height*input$height)
-  #  })
     output$obmi<-renderPrint({(input$weight*703)/(input$height*input$height)})
-}
+    }
 )
