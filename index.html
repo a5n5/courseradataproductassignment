@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>Coursera Data Product Assignment</title>
+	<meta name="description" content="Coursera Data Product Assignment">
+	<meta name="author" content="Amlan N">
+	<meta name="generator" content="slidify" />
+	
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/html5slides/default/styles.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />  <link rel="stylesheet" href = "assets/css/ribbons.css">
+  
+</head>
+<body style='display: none'>
+	<section class='slides layout-regular template-regular'>
+     <article class="" id="slide-1" style="background:;">
+  <h3>Introduction</h3>
+  <ul>
+<li><p>This application was created as part of the Coursera Data Science Data Product Assignment.</p></li>
+<li><p>This is an application to calculate your Body Mass Index(BMI)</p></li>
+<li><p>The application allows you to enter your weight in lbs and height in inches, and it calculates your BMI</p></li>
+<li><p>It also provides a handy table to interpret your BMI</p></li>
+</ul>
+
+</article>
+
+<article class="" id="slide-2" style="background:;">
+  <h3>Example BMI Calculation</h3>
+  <p>The BMI formula is:</p>
+
+<p>\(\frac{weight ~X~ 703}{Height^2}\)</p>
+
+<p>where weight is in <em>lbs</em> and height is in <em>inches</em></p>
+
+<p>For example, for weight = 180 lbs and height = 70 inches, the bmi is</p>
+
+<pre><code>## [1] 25.82449
+</code></pre>
+
+</article>
+
+<article class="" id="slide-3" style="background:;">
+  <h3>BMI Table</h3>
+  <p>The BMI reference table is:</p>
+
+<table><thead>
+<tr>
+<th>BMI</th>
+<th>Weight Status</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Below 18.5</td>
+<td>Underweight</td>
+</tr>
+<tr>
+<td>18.5-24.9</td>
+<td>Normal</td>
+</tr>
+<tr>
+<td>25-29.9</td>
+<td>Overweight</td>
+</tr>
+<tr>
+<td>30+</td>
+<td>Obese</td>
+</tr>
+</tbody></table>
+
+</article>
+
+<article class="" id="slide-4" style="background:;">
+  <h3>BMI Shiny app</h3>
+  <p>The shiny app can be found <a href="https://a5n5.shinyapps.io/Assignment/">here</a></p>
+
+</article>
+
+  </section>
+</body>
+  <!-- LOAD JAVASCRIPTS  -->
+	<script src='libraries/frameworks/html5slides/default/slides.js'></script>
+	<script src="shared/shiny.js" type="text/javascript"></script>
+	<script src="shared/slider/js/jquery.slider.min.js"></script>
+	<script src="shared/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="shared/slider/css/jquery.slider.min.css"></link>
+	
+	<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	    tex2jax: {
+	      inlineMath: [['$','$'], ['\\(','\\)']],
+	      processEscapes: true
+	    }
+	  });
+	</script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script> -->
+	<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+	</html>
